@@ -4,15 +4,6 @@ import Button from "../examples/Button"
 
 export default class tours extends Component {
   render() {
-    return (
-      <Layout>
-        <div>
-          Hello from tours page!
-          <Button>first button</Button>
-          <Button>second button</Button>
-        </div>
-      </Layout>
-    )
+    return <Layout>Hello from tours page!</Layout>
   }
 }
-//
