@@ -39,6 +39,10 @@ const Images = () => {
       <article>
         <h3>fluid image/svg</h3>
         <Img fluid={data.fluid.childImageSharp.fluid} />
+
+        <div className="fluid">
+          <Img fluid={data.fluid.childImageSharp.fluid} />
+        </div>
       </article>
     </Wrapper>
   )
@@ -57,6 +61,10 @@ const Wrapper = styled.div`
 
   .basic {
     width: 100%;
+  }
+
+  .fluid {
+    width: 200px;
   }
 
   @media (min-width: 992px) {
