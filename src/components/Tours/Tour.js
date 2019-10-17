@@ -20,7 +20,7 @@ const Tour = ({ tour }) => {
         <h3>{name}</h3>
         <div className={styles.info}>
           <h4 className={styles.country}>
-            <FaMap className={StyleSheet.icon} />
+            <FaMap className={styles.icon} />
             {country}
           </h4>
           <div className={styles.details}>
